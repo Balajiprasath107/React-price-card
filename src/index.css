@@ -3,6 +3,7 @@
   height: 100vh;
   text-align: center;
   background:linear-gradient(60deg,#1c0e9d,#39c0ea);
+  background-attachment: scroll;
 }
 
 .card-area{
@@ -10,7 +11,7 @@
   text-align: center;
   padding: 20px;
   margin-top: 20vh;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   background-color: #ffffff;
   width: 250px;
   border-radius: 20px;
@@ -53,4 +54,25 @@
 }
 .button:active{
   background-color: #007aff;
+}
+
+@media (max-width:700px){
+  :root{
+    height: 1600px;
+    background:linear-gradient(85deg,#1c0e9d,#39c0ea);
+  }
+  .card-area{
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+}
+@media (max-width:800px){
+  :root{
+    height: 1900px;
+    background:linear-gradient(85deg,#1c0e9d,#39c0ea);
+  }
+  .card-area{
+    margin-top: 100px;
+    margin-left: 40px;
+  }
 }
